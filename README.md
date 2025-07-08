@@ -12,7 +12,6 @@
   - MailService (for EBook)
 
 ## Example Output
-![image](https://github.com/user-attachments/assets/89f0d3e6-1cec-4c4a-9fe9-0a081ace2b33)
 
 
 ## How to Run

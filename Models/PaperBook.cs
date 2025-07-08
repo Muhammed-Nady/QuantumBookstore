@@ -1,8 +1,10 @@
 ﻿using QuantumBookstore.Services;
+using QuantumBookstore.Interfaces;
+
 
 namespace QuantumBookstore.Models
 {
-    class PaperBook : Book
+    class PaperBook : Book, IBuyable
     {
         public int Stock { get; set; }
         public PaperBook(string isbn, string title, short year, double price, int stock = 0) : base(isbn, title, year, price) { Stock = stock; }

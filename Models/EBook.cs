@@ -1,9 +1,10 @@
 ﻿using QuantumBookstore.Services;
+using QuantumBookstore.Interfaces;
 
 namespace QuantumBookstore.Models
 {
     enum FileType { pdf, txt, html, epub }
-    class EBook : Book
+    class EBook : Book , IBuyable
     {
         public FileType fileType { get; set; }
         public EBook(string isbn, string title, short year, double price, FileType type) : base(isbn, title, year, price) { fileType = type; }
