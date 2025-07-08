@@ -40,10 +40,10 @@ namespace QuantumBookstore.Test
             try
             {
                 double amount = BookStore.BuyBook("100", 2, "Fayoum");
-                Console.WriteLine($"Bought paper book for ${amount}");
+                Console.WriteLine($"Bought {2} of paper book for ${amount}");
 
                 amount = BookStore.BuyBook("200", 1, "muhammednadyii@gmail.com");
-                Console.WriteLine($"Bought ebook for ${amount}");
+                Console.WriteLine($"Bought {1} of ebook for ${amount}");
 
                 Console.WriteLine();
             }
